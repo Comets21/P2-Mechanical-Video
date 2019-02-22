@@ -5,8 +5,8 @@ int main()
     set_servo_position(0, 1500);
     msleep(500);
     set_servo_position(1, 2000); msleep(500);
-    motor(1, -100);
-    motor(0, -100);
+    motor(1, -90);
+    motor(0, -90);
     msleep(1700);
     motor(0, -100);
     motor(1, 100);
